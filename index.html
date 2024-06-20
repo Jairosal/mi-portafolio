@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/left.css">
+    <link rel="stylesheet" href="style/right.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Mi portafolio</title>
+</head>
+<body>
+    <div class="left-container">
+        <header>
+            <div class="container-img-profile">
+                <img class="img-profile" src="https://res.cloudinary.com/dxre84abu/image/upload/v1718837753/foto_jyprwi.png" alt="imagen perfil">
+            </div>
+
+            <div class="container-name-profile">
+                <h1 class="name-profile">Jairo Salguedo Martínez</h1>
+            </div>
+
+            <nav class="navbar-profile">
+                <ul>
+                    <li><a href="#section-profile">Perfil</a></li>
+                    <li><a href="#section-projects">Proyectos</a></li>
+                    <li><a href="#section-references">Referencias</a></li>
+                    <li><a href="#section-experiences">Experiencia</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <nav class="navbar-social-networks">
+                <ul>
+                    <li><a href="https://www.facebook.com/jairo.salguedo?mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook' style='color:#6d07bd'></i></a></li>
+                    <li><a href="https://wa.me/573022852986" target="_blank"><i class='bx bxl-whatsapp' style='color:#6d07bd' ></i></a></li>
+                    <li><a href="https://www.instagram.com/jairosalguedo?igsh=d3h1bTB4dzE2NXF3"  target="_blank"><i class='bx bxl-instagram' style='color:#6d07bd'  ></i></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <div class="right-container">
+        <main class="main-container">
+            <section id="section-profile" class="section-info section-profile">
+                <h2>Perfil</h2>
+                <p>Soy Jairo Salguedo Martínez, desarrollador front-end apasionado por crear interfaces
+                   de usuario dinámicas, accesibles y visualmente atractivas. Con una sólida base en HTML,
+                   CSS y JavaScript, y experiencia en frameworks modernos como React, me dedico a convertir ideas 
+                   en experiencias digitales intuitivas. Me motiva la búsqueda constante de nuevas tecnologías y metodologías 
+                   para mejorar la eficiencia y la calidad de mi trabajo, siempre poniendo al usuario final en el centro 
+                   de cada proyecto</p>
+            </section>
+            <section id="section-projects" class="section-info section-projects">
+                <h2>Proyectos</h2>
+                <div class="container-cards">
+                    <div class="card-projects">
+                        <div class="container-img-card">
+                            <img src="https://res.cloudinary.com/dxre84abu/image/upload/v1718889884/Logo_uqdk6v.png" alt="">
+                        </div>
+                        <div class="container-descripcion-card">
+                            <h3>Calculadora sencilla</h3>
+                            <p>Esta es una calculadora sencilla para hacer operaciones aritméticas
+                            </p>
+                            <a href="https://github.com/Jairosal/calculadora-simple.git" target="_blank">Ir a poryecto</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-references" class="section-info section-references">
+                <h2>Referencias</h2>
+                <div class="card-references">
+                    <div class="card-reference">
+                        <p>Nombre: <Span>Sindi Tabares Cardona</Span></p>
+                        <p>Cargo: <Span>Auxiliar Logística</Span></p>
+                        <p>Empresa: <Span>Flores Santillana S.A.S</Span></p>
+                        <p>Teléfono: <Span>3137757227</Span></p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-experiences" class="section-info section-experiences">
+                <h2>Experiencia</h2>
+                <div class="container-experiences">
+                    <div class="card-experience">
+                        <img src="https://res.cloudinary.com/dxre84abu/image/upload/v1718821119/logo-javascript_njupfq.png" alt="logo-javascript">
+                        <h4>Javascript</h4>
+                        <progress class="progress-bar" value="90" max="100">    
+                        </progress>
+                        <h5>Básico</h5>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

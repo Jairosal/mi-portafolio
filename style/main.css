@@ -1,0 +1,18 @@
+:root{
+    --first-color: #000000;
+    --second-color: #292929;
+    --third-color: #ced110;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 98vw;
+    height: auto;
+    display: flex;
+}
+
